@@ -1,0 +1,94 @@
+.profile-image:hover{
+  transform: scale(1.2) rotate(5deg);
+}
+.profile-image {
+  border: 3px solid white;
+  border-radius: 50%;
+  height: 150px;
+  margin-top: 50px;
+  transition: all .5s;
+  width: 150px;
+}
+header {
+   min-height: 450px;
+ }
+
+ .nav {
+   max-width: 1200px;
+ }
+
+ .nav .name {
+   color: white;
+   display: block;
+   margin-right: auto;
+ }
+ body {
+   background: #f7f5f0;
+   color: #222;
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+ }
+ /* Link Styles */
+
+ a {
+   color: #0c8970;
+   text-decoration: none;
+ }
+ a:hover {
+   color: #6633ff;
+ }
+
+ /* Section Styles */
+
+ .main-nav {
+   background: black;
+   min-height: 30px;
+   padding: 10px;
+   position: fixed;
+   text-align: center;
+   width: 100%;
+ }
+ .nav {
+   display: flex;
+   font-weight: 700;
+   justify-content: space-around;
+   list-style-type: none;
+   margin: 0 auto;
+   padding: 0;
+ }
+ .nav .name {
+   display: none;
+ }
+ .nav li {
+   padding: 5px 10px 10px 10px;
+ }
+ .nav a {
+   transition: all .5s;
+ }
+ .nav a:hover {
+   color: white
+ }
+
+ header {
+   background: url('https://placeimg.com/1000/480/tech/grayscale') no-repeat top center ;
+   background-size: cover;
+   overflow: hidden;
+   padding-top: 60px;
+   text-align: center;
+ }
+ header {
+   line-height: 1.5;
+ }
+ header .profile-image {
+   margin-top: 50px;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 3px solid white;
+   transition: all .5s;
+ }
+ header .profile-image:hover {
+   transform: scale(1.2) rotate(5deg);
+ }
