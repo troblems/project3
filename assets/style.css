@@ -1,6 +1,6 @@
 
 header {
-   min-height: 450px;
+   min-height: 350px;
  }
 
  .nav {
@@ -9,15 +9,16 @@ header {
 
  .nav .name {
    color: white;
-   display: block;
-   margin-right: auto;
+
+
  }
  body {
    background: #EDFFF1;
    color: #222;
    font-family: 'Roboto', sans-serif;
-   margin: 0;
+   margin-bottom: 50px;
    padding: 0;
+   position:absolute;
    text-align: center;
  }
 
@@ -30,9 +31,6 @@ header {
    color: #1BE8AA;
  }
 
-body {
-   margin:0;
-}
 
  .main-nav {
    background: black;
@@ -66,22 +64,19 @@ body {
  }
 
  header {
-
-   background-size: cover;
-   overflow: hidden;
-   padding-top: 60px;
+   padding-top: 20px;
  }
 p{
    color:#0c8970;
 }
- header {
-   line-height: 1.5;
- }
+
  header .profile-image {
-   border: 3px solid white;
+   border: 3px solid #1BE8AA;
    border-radius: 50%;
    height: 150px;
+   line-height: 1.5;
    margin-top: 50px;
+   overflow: hidden;
    transition: all .5s;
    width: 150px;
  }
@@ -91,14 +86,23 @@ p{
 footer{
    background: black;
    bottom: 0px;
+   clear:both;
    color: #1BE8AA;
-   display: flex;
    font-weight: 700;
-   justify-content: space-around;
-   margin: 0 auto;
    min-height: 30px;
+   overflow: auto;
    padding: 10px;
    position: fixed;
    text-align: center;
    width: 100%;
+}
+.black{
+  color:black;
+}
+.white{
+  color:white;
+}
+ul, li
+{
+  list-style-type:none;
 }

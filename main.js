@@ -1,1 +1,4 @@
-var favicons = require('favicons')
+
+GitHubCalendar(".calendar", "troblems");
+
+GitHubActivity.feed({ username: "troblems", selector: "#ghfeed" });
