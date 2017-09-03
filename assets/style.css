@@ -106,3 +106,9 @@ ul, li
 {
   list-style-type:none;
 }
+.profile-image{
+  margin-top: 40px;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+}
