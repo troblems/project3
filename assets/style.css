@@ -31,7 +31,6 @@ header {
    color: #1BE8AA;
  }
 
-
  .main-nav {
    background: black;
    min-height: 30px;
@@ -105,10 +104,17 @@ footer{
 ul, li
 {
   list-style-type:none;
+  display:inline-block;
 }
 .profile-image{
   margin-top: 40px;
 }
 h1{
   font-family: 'Poppins', sans-serif;
+}
+.social list-inline{
+  display:inline-block;
+}
+.fa {
+display:inline-block;
 }

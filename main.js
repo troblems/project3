@@ -1,4 +1,12 @@
+var express = require ("express");
+var app = express();
+var calendar = require ("github-calendar");
 
-GitHubCalendar(".calendar", "troblems");
+var port = process.env.PORT || 3000;
 
-GitHubActivity.feed({ username: "troblems", selector: "#ghfeed" });
+app.listen(port, function(){
+  console.log("Express server is listening on port", port);
+});
+
+
+]

@@ -4,14 +4,16 @@
 
 <head>
   <title>Amanda Wittenstein</title>
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
   <link rel="stylesheet" type="text/css" href="assets/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
   <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css" />
-  <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
-</head>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+  />
 
 <body>
   <header>
@@ -25,8 +27,8 @@
     </div>
     <header class="header">
       <div class="container">
-        <img class="profile-image img-responsive pull-left" src="assets/images/profile.jpg" alt="Amanda Wittenstein" />
-        <div class="profile-content pull-left">
+        <img class="profile-image" src="assets/images/profile.jpg" alt="Amanda Wittenstein" />
+        <div class="profile-content">
           <h1>Amanda Wittenstein</h1>
           <h2 class="desc">Full Stack Web Developer</h2>
           <ul class="social list-inline">
@@ -34,9 +36,8 @@
             <li><a href="https://github.com/troblems" target="_blank"><i class="fa fa-github-alt"></i></a></li>
           </ul>
         </div>
-
       </div>
-      <aside class="languages aside section">
+
         <div class="section-inner">
           <h2 class="heading">Languages</h2>
           <div class="content">
@@ -52,25 +53,20 @@
             </ul>
           </div>
         </div>
-      </aside>
     </header>
 
     <div class = "containers">
       <h2>Let's talk about me!</h2>
       <h3>Quick timeline</h3>
-    <p class = "black">Kiddo<span style="color: white"> Grew up in California with two loving parents, and a bratty brother, who is cool as heck now</p>
-    <p class = "black">After<span style="color: white"> University, along with working for a major gaming company as a Game Master. Did some voice acting for the company, as well.</p>
-    <p class = "black">And then?<span style="color: white"> More college, and the Cisco Certified Network Associate Courses. Traveled to Australia, Great Britain, and Germany. Began volunteering as a forum administrator. Got really ill.</p>
-    <p class = "black">Currently?<span style="color: white"> Moved to Austin. Relearned to walk. Became a web developer. Loving life</p>
+    <p class = "black">Kiddo<span style="color: white"> Grew up in California with two loving parents, and a bratty brother, who is cool as heck now</span></p>
+    <p class = "black">After<span style="color: white"> University, along with working for a major gaming company as a Game Master. Did some voice acting for the company, as well</span>.</p>
+    <p class = "black">And then?<span style="color: white"> More college, and the Cisco Certified Network Associate Courses. Traveled to Australia, Great Britain, and Germany. Began volunteering as a forum administrator. Got really ill.</span></p>
+    <p class = "black">Currently?<span style="color: white"> Moved to Austin. Relearned to walk. Became a web developer. Loving life</span></p>
       <h3>Essentials</h3>
       <ul>
         <li>If I had to name a focus as a web designer, I would say it would be security. I've always been fascinated by cryptology, and want to build the best and safest websites for my clients</li>
       </ul>
-      <p>I have comprehensive computer networking knowledge from a series of CCNA prep courses. Further tech skills include multiplayer game backend and bug procedures from my time as a Game Master for a major gaming company, website and forum backend and
-      management from several years as a volunteer site administrator, and web development and API integration experience from a failed startup. Non-tech skills include conflict resolution, contractor management, and some voice acting experience.</p>
 
-    <p>I have traveled to places as far flung as Australia, including several trips to Europe, and, while rusty, have conversational use of Russian as well as essential use of Spanish. I am highly self-motivated which has been critical to my rehabilitation
-      and acquisition of tech skills following medical problems that forced me to drop out of UC San Bernardino. I enjoy gaming, reading, and working out, and have a wicked sense of humor.</p>
     </div>
     <aside class="list music aside section">
       <div class="section-inner">
@@ -85,17 +81,21 @@
         </div>
       </div>
     </aside>
+    <!-- Prepare a container for your calendar. -->
     <div class="calendar">
-      Loading data.
+        <!-- Loading stuff -->
+        Loading the data just for you.
     </div>
+
     <footer>
       <h4>&copy; 2017 Amanda Wittenstein<h4>
     </footer>
-<script type="text/javascript" src="main.js"></script>
-<script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
-<script
-  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
-</script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script
+    src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+  </script>
+  <script>
+      GitHubCalendar(".calendar", "troblems");
+  </script>
 </body>
 </html>

@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/troblems/project3/issues"
   },
-  "homepage": "https://github.com/troblems/project3#readme"
+  "homepage": "https://github.com/troblems/project3#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "github-calendar": "^1.1.12"
+  },
+  "devDependencies": {}
 }
